@@ -1,0 +1,6 @@
+{
+    "watch": ["src"],
+    "ext": "js,json",
+    "ignore": ["src/lib/**/*"],
+    "exec": "babel-node -r dotenv/config"
+  }
